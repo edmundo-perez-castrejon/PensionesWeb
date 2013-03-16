@@ -1,0 +1,32 @@
+[09-Nov-2011 09:28:19] PHP Warning:  require_once(C:/WebSites/2010/clases/conexion.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\WebSites\Pensiones\2010\clases\sql.php on line 9
+[09-Nov-2011 09:28:19] PHP Stack trace:
+[09-Nov-2011 09:28:19] PHP   1. {main}() C:\WebSites\Pensiones\2010\index.php:0
+[09-Nov-2011 09:28:19] PHP   2. require_once() C:\WebSites\Pensiones\2010\index.php:37
+[09-Nov-2011 09:28:19] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'C:/WebSites/2010/clases/conexion.php' (include_path='.;C:\php5\pear') in C:\WebSites\Pensiones\2010\clases\sql.php on line 9
+[09-Nov-2011 09:28:19] PHP Stack trace:
+[09-Nov-2011 09:28:19] PHP   1. {main}() C:\WebSites\Pensiones\2010\index.php:0
+[09-Nov-2011 09:28:19] PHP   2. require_once() C:\WebSites\Pensiones\2010\index.php:37
+[09-Nov-2011 09:30:07] PHP Warning:  require_once(C:/WebSites/2010/clases/conexion.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\WebSites\Pensiones\2010\clases\sql.php on line 9
+[09-Nov-2011 09:30:07] PHP Stack trace:
+[09-Nov-2011 09:30:07] PHP   1. {main}() C:\WebSites\Pensiones\2010\index.php:0
+[09-Nov-2011 09:30:07] PHP   2. require_once() C:\WebSites\Pensiones\2010\index.php:37
+[09-Nov-2011 09:30:07] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'C:/WebSites/2010/clases/conexion.php' (include_path='.;C:\php5\pear') in C:\WebSites\Pensiones\2010\clases\sql.php on line 9
+[09-Nov-2011 09:30:07] PHP Stack trace:
+[09-Nov-2011 09:30:07] PHP   1. {main}() C:\WebSites\Pensiones\2010\index.php:0
+[09-Nov-2011 09:30:07] PHP   2. require_once() C:\WebSites\Pensiones\2010\index.php:37
+[09-Nov-2011 09:36:10] PHP Warning:  require_once(C:/WebSites/2010/clases/conexion.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\WebSites\Pensiones\2010\clases\sql.php on line 9
+[09-Nov-2011 09:36:10] PHP Stack trace:
+[09-Nov-2011 09:36:10] PHP   1. {main}() C:\WebSites\Pensiones\2010\index.php:0
+[09-Nov-2011 09:36:10] PHP   2. require_once() C:\WebSites\Pensiones\2010\index.php:37
+[09-Nov-2011 09:36:10] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'C:/WebSites/2010/clases/conexion.php' (include_path='.;C:\php5\pear') in C:\WebSites\Pensiones\2010\clases\sql.php on line 9
+[09-Nov-2011 09:36:10] PHP Stack trace:
+[09-Nov-2011 09:36:10] PHP   1. {main}() C:\WebSites\Pensiones\2010\index.php:0
+[09-Nov-2011 09:36:10] PHP   2. require_once() C:\WebSites\Pensiones\2010\index.php:37
+[09-Nov-2011 09:36:24] PHP Warning:  require_once(C:/WebSites/2010/clases/conexion.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in C:\WebSites\Pensiones\2010\clases\sql.php on line 9
+[09-Nov-2011 09:36:24] PHP Stack trace:
+[09-Nov-2011 09:36:24] PHP   1. {main}() C:\WebSites\Pensiones\2010\index.php:0
+[09-Nov-2011 09:36:24] PHP   2. require_once() C:\WebSites\Pensiones\2010\index.php:37
+[09-Nov-2011 09:36:24] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'C:/WebSites/2010/clases/conexion.php' (include_path='.;C:\php5\pear') in C:\WebSites\Pensiones\2010\clases\sql.php on line 9
+[09-Nov-2011 09:36:24] PHP Stack trace:
+[09-Nov-2011 09:36:24] PHP   1. {main}() C:\WebSites\Pensiones\2010\index.php:0
+[09-Nov-2011 09:36:24] PHP   2. require_once() C:\WebSites\Pensiones\2010\index.php:37

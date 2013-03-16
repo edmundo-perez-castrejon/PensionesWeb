@@ -1,0 +1,8 @@
+[24-Mar-2010 10:04:44] PHP Warning:  getimagesize(C:/WebSites/imagenes/img/logo_colimalate.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in C:\WebSites\BuzonQuejas\clases\fpdf\fpdf.php on line 1242
+[24-Mar-2010 10:04:44] PHP Stack trace:
+[24-Mar-2010 10:04:44] PHP   1. {main}() C:\WebSites\BuzonQuejas\clases\fpdf\tutorial\tuto1.php:0
+[24-Mar-2010 10:04:44] PHP   2. FPDF->AddPage() C:\WebSites\BuzonQuejas\clases\fpdf\tutorial\tuto1.php:5
+[24-Mar-2010 10:04:44] PHP   3. FPDF->Header() C:\WebSites\BuzonQuejas\clases\fpdf\fpdf.php:340
+[24-Mar-2010 10:04:44] PHP   4. FPDF->Image() C:\WebSites\BuzonQuejas\clases\fpdf\fpdf.php:371
+[24-Mar-2010 10:04:44] PHP   5. FPDF->_parsejpg() C:\WebSites\BuzonQuejas\clases\fpdf\fpdf.php:957
+[24-Mar-2010 10:04:44] PHP   6. getimagesize() C:\WebSites\BuzonQuejas\clases\fpdf\fpdf.php:1242

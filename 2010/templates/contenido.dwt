@@ -1,0 +1,120 @@
+<?php 
+$sUrl="http://www.colima-estado.gob.mx/cfg/menu.php";
+$ch=curl_init();
+curl_setopt($ch,CURLOPT_URL,$sUrl);
+curl_setopt($ch,CURLOPT_HEADER,false);
+curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+$sMenu=curl_exec($ch);
+$error=curl_error($ch);
+curl_close($ch);
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Instituto Colimense para la Calidad - Gobierno del Estado de Colima</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/main.css" rel="stylesheet" type="text/css" />
+<link href="../styles/variaciones/layout_variacion_icc.css" rel="stylesheet" type="text/css" />
+<link href="../styles/nav_vertical_icc.css" rel="stylesheet" type="text/css" />
+<link href="../styles/layout_icc_int.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<script type="text/javascript" src="http://www.colima-estado.gob.mx/js/mainmenu.js"></script>
+<script type="text/javascript" src="../scripts/menu_vertical_ie.js"></script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="wrap">
+    
+    	<div id="header">
+        		<div id="logo_administracion"></div>
+                <div id="header_left">
+                	<div id="titulo_dependencia"></div>
+                	<div id="escudo_gobierno_header"></div>
+	                <div id="navegacion_header">
+					<?php 
+					echo $sMenu;                  
+					?>
+					</div>
+                </div>
+        </div>
+      <div id="container">
+      
+		<!--Navegacion vertical-->      
+
+           <div id="navegacion_vertical_icc">
+           						
+
+                            <div id="menu2">
+									<ul>
+										<li><a href="../bienvenida.php" title="Bienvenida">Bienvenida</a></li>
+										<li><a href="../objetivos.php" title="Quienes somos">Quienes somos</a></li>
+										<li><a href="../bitacora_actividades.php" title="Clientes">¿Que hace el ICC?</a></li>
+										<li><a href="../clientes.php" title="Clientes">Clientes</a></li>
+										<li><a href="../lista_eventos.php" title="Cursos">Cursos</a></li>
+										<li><a href="../lista_galerias.php" title="Galerìa de imágenes">Galería de Imágenes</a></li>	            
+										<li><a href="../lista_noticias.php" title="Noticias">Noticias</a></li>	            
+										<li><a href="../dir_empresas.php" title="Directorio de empresas">Directorio de empresas</a></li>	            
+										<li><a href="../dir_funcionarios.php" title="Directorio de consultores">Directorio de consultores</a></li>	            
+										<li><a href="../contactanos.php" title="Contàctanos">Contáctanos</a></li>	            
+										<li><a href="../premio_calidad.php" title="Premios a la calidad">Premios a la calidad</a></li>	
+										<li><a href="../servicios.php" title="servicios">Servicios</a></li>
+										<li><a href="../transparencia.php" title="transparencia">Transparencia</a></li>	                        
+										<li><a href="../clientes_opinion.php" title="Nuestros clientes opinan">Nuestros clientes opinan</a></li>	                                                                        
+									</ul>
+							</div>
+
+             </div>
+                                          
+
+        
+            
+          <!--  Fin de la navegacion vertical-->
+      
+           
+          <!-- inicio de area de contenido    -->
+          <div id="contenido_interior_icc">
+          			<div id="ruta_sitio"><a href="../index.php"><strong>inicio</strong></a>  &nbsp;&nbsp;&nbsp; •  &nbsp; <!-- TemplateBeginEditable name="seccion" --><a href="#">sección</a><!-- TemplateEndEditable -->   &nbsp;&nbsp;•    &nbsp;&nbsp;<!-- TemplateBeginEditable name="contenido" --><a href="#">contenido</a><!-- TemplateEndEditable -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; buscador: 
+					<!-- Búsqueda Google --> 
+					  <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=es"></script>
+					  <form name="cse-search-box" action="../resultados_google.php" id="cse-search-box">               
+						<input type="hidden" name="cx" value="014236938551008680577:ggci54l8_jy" />
+						<input type="hidden" name="cof" value="FORID:10" />
+						<input type="hidden" name="ie" value="UTF-8" />
+						<input name="q" type="text"  maxlength="25" />
+						<input type=submit name=btnG VALUE="buscar">
+					  </form>
+					<!-- Búsqueda Google -->
+</div>
+                    <div id="titulo_contenido"><a name="start" id="start"></a><!-- TemplateBeginEditable name="titulo" -->aqu&iacute; va el titulo<!-- TemplateEndEditable --></div>
+                    <div id="texto_contenido">
+                      <p><!-- TemplateBeginEditable name="cuerpo" -->aqu&iacute; va el contenido<!-- TemplateEndEditable --></p>
+            </div>
+                    <div id="control_navegacion_inferior">
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <img src="../imagenes/ico/home-icon.gif" width="18" height="16" /> <a href="../index.php">&lt;&lt; regresar a página principal                   &nbsp;&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#start">arriba</a>&nbsp; <a href="#start"><img src="../imagenes/ico/ico_arriba.gif" width="8" height="6" border="0" /></a></div>
+          
+          </div>
+     		  
+      </div>
+      <div id="footer">
+        <div id="escudo_gobierno_pie"></div>
+        <div id="pie_left">
+          <div id="enlaces_pie"> </div>
+          <div id="datos_pie"> 
+		  						Leandro Valle No 5 Loc. 5, Col. Centro Villa de Álvarez.
+                                contacto: icc@col.gob.mx.
+                                Teléfonos: 33 011 66 y 33 011 69. 
+		  </div>
+        </div>
+      </div>
+</div>
+	<script type="text/javascript">qm_create(0,false,0,500,'lev2',false,false,false,true);</script>
+</body>
+</html>

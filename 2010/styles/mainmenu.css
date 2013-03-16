@@ -1,0 +1,140 @@
+/*@variables { ruta: "http://www.colima-estado.gob.mx/imagenes/ico"; }*/
+
+/*!!!!!!!!!!! MyCSSMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+.qmmc .qmdivider{display:block;font-size:1px;border-width:0px;border-style:solid;position:relative;z-index:1;}.qmmc .qmdividery{float:left;width:0px;}.qmmc .qmtitle{display:block;cursor:default;white-space:nowrap;position:relative;z-index:1;}.qmclear {font-size:1px;height:0px;width:0px;clear:left;line-height:0px;display:block;float:none !important;}.qmmc {position:relative;zoom:1;z-index:10;}.qmmc a, .qmmc li {float:left;display:block;white-space:nowrap;position:relative;z-index:1;}.qmmc div a, .qmmc ul a, .qmmc ul li {float:none;}.qmsh div a {float:left;}.qmmc div{visibility:hidden;position:absolute;}.qmmc li {z-index:auto;}.qmmc ul {left:-10000px;position:absolute;z-index:10;}.qmmc, .qmmc ul {list-style:none;padding:0px;margin:0px;}.qmmc li a {float:none}.qmmc li:hover>ul{left:auto;}#qm0 ul {top:100%;}#qm0 ul li:hover>ul{top:0px;left:100%;}
+
+/*!!!!!!!!!!! MyCSSMenu Styles [Please Modify!] !!!!!!!!!!!*/
+/* MyCSSMenu 0 */
+
+/*"""""""" (MAIN) Container""""""""*/	
+#qm0	
+{
+margin-top:15px;
+}
+
+/*"""""""" (MAIN) Items""""""""*/	
+#qm0 a	
+{	
+	padding:5px 15px 5px 11px;
+	color:#FFFFFF;
+	font-family: "Trebuchet MS";
+	font-size:13px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+/*"""""""" (MAIN) Parent Items""""""""*/	
+#qm0 .qmparent	
+{	
+	background-image:url(http://www.colima-estado.gob.mx/imagenes/ico/plus_main.gif);
+	background-repeat:no-repeat;
+	background-position:5px 10px;
+}
+
+/*"""""""" (MAIN) Active State""""""""*/	
+body #qm0 .qmactive, body #qm0 .qmactive:hover	
+{	
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+/*"""""""" (SUB) Container""""""""*/	
+#qm0 div, #qm0 ul	
+{	
+	padding:5px;
+	margin:-2px 0px 0px -6px;
+	border-width:1px;
+	border-style:none;
+}
+
+/*"""""""" (SUB) Items""""""""*/	
+#qm0 div a, #qm0 ul a	
+{	
+	padding:5px 50px 5px 20px;
+	background-color:transparent;
+	color:#F5F5F5;
+	font-size:11px;
+	font-weight:bold;
+	border-width:0px;
+	border-style:none;
+	border-color:#000000;
+}
+
+/*"""""""" (SUB) Hover State""""""""*/	
+#qm0 div a:hover, #qm0 ul a:hover	
+{	
+	color:#3F3F3F;
+	text-decoration:none;
+}
+
+/*"""""""" (SUB) Parent Items""""""""*/	
+#qm0 div .qmparent	
+{	
+	background-image:url(http://www.colima-estado.gob.mx/imagenes/ico/plus_sub.gif);
+}
+
+/*"""""""" (SUB) Parent Hover State""""""""*/	
+#qm0 div .qmparent:hover	
+{	
+	background-image:url(http://www.colima-estado.gob.mx/imagenes/ico/plus_sub_hover.gif);
+}
+
+/*"""""""" (SUB) Active State""""""""*/	
+body #qm0 div .qmactive, body #qm0 div .qmactive:hover	
+{	
+	background-color:#F4C01B;
+	background-image:url(http://www.colima-estado.gob.mx/imagenes/ico/minus_sub.gif);
+	color:#EEEEEE;
+}
+
+/*"""""""" (main) Rounded Items""""""""*/	
+#qm0 .qmritem span	
+{	
+	border-color:#A6A6A6;
+	background-color:#3F3F3F;
+	background-image:url(http://www.colima-estado.gob.mx/imagenes/ico/minus_main.gif);
+	background-repeat:no-repeat;
+	background-position:9px 5px;
+}
+
+/*"""""""" (main) Rounded Items Content""""""""*/	
+#qm0 .qmritemcontent	
+{	
+	padding:0px 0px 0px 20px;
+}
+
+/*"""""""" (sub) Rounded Items""""""""*/	
+#qm0 div .qmritem span	
+{	
+	border-color:#666666;
+	background-color:#EEEEEE;
+}
+
+/*"""""""" (sub) Rounded Items Content""""""""*/	
+#qm0 div .qmritemcontent	
+{	
+	padding:0px 0px 0px 4px;
+}
+
+/*"""""""" Main Hover Fill Items [Static]""""""""*/	
+#qm0 .qmhoverfill	
+{	
+	background-color:#91ED99;
+}
+
+/*"""""""" Sub Hover Fill Items [Static]""""""""*/	
+#qm0 div .qmhoverfill	
+{	
+	background-color:#F4C01B;
+	border-width:1px;
+	border-style:solid;
+	border-color:#555555;
+}
+
+/*"""""""" Custom Rule""""""""*/	
+div#qm0 div div	
+{	
+	margin:0px 0px 0px -6px;
+}
+
+.qmfv{visibility:visible !important;}.qmfh{visibility:hidden !important;}

@@ -1,0 +1,154 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.menu {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu:hover {
+	text-decoration: underline;
+}
+.submenu {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.submenu:hover {
+	text-decoration: underline;
+}
+
+.botones {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.botones:hover {
+	text-decoration: underline;
+}
+
+.textoPies {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.textoPies12 {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.portada {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.portada a {color: #666666; font-weight: bold;}
+.portada a:hover {text-decoration: none;}
+
+.colofon {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	color: #666666;
+}
+.colofonportada {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: #CCCCCC;
+}
+.colofonportada a {text-decoration: none;}
+.colofonportada a:hover {text-decoration: underline;}
+
+.ayuda {
+	font-size: 11px;
+	margin-left: 25px;
+	list-style-image: url(../img/bolillo.gif);
+	padding-left: 0px;
+
+}
+
+.ayuda li {
+	margin-bottom: 5px;
+	margin-left: 0px;
+
+}
+.enlaces {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #333333;
+}
+.enlaces a {
+	font-weight: bold;
+	color: #CC0000;
+}
+.enlaces a:hover{
+	text-decoration: none;
+}
+
+.creditosfoto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.creditosentrar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.creditosentrar a {text-decoration: none;}
+
+.titulo {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #990000;
+}
+
+.tituloPeq {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990000;
+}
+
+.cintillo {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC6600;
+}
+
+.piesTestimonios {
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+SELECT {
+	color: #000000;
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 11px;
+}
+
+.combo {
+	background-color: #990000;
+	color: #FFFFFF;
+}
